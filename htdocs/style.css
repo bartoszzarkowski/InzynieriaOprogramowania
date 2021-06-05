@@ -1,0 +1,137 @@
+.container
+{
+    text-align: center;
+    width: auto;
+    height: 600px;
+    margin-left: -1%;
+    margin-right: -1%;
+    margin-top: -1%;
+    max-height: 700px;
+    font-family: Verdana;
+}
+.banner 
+{
+  background: url(images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 225px; width: 100%;
+}
+.logowanie
+{
+    width: 40%;
+    height: 70%;
+    margin: -2px;
+    margin-left: 7%;
+    margin-top: 10%;
+    padding-top: 5%;
+    background-color: #f2f2f2;
+    color: #478ac9;
+    display: inline-block;
+    float: left;
+}
+
+.status
+{
+    width: 40%;
+    height: 70%;
+    margin: -2px;
+    margin-right: 7%;
+    margin-top: 10%;
+    padding-top: 5%;
+    background-color: #478ac9;
+    color: #f2f2f2;
+    display: inline-block;
+    float: right;
+}
+.footer
+{
+    width: auto;
+    height: auto;
+    margin-top: 20%;
+    padding: 2%;
+    background-color: #333333;
+    color: #f2f2f2;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.przycisk_zaloguj
+{
+    margin-top: 5%;
+    color: #f2f2f2;
+    background-color: #478ac9;
+    padding: 2% 10% 2% 10%;
+    font-family: Verdana;
+    font-size: 120%;
+    border: none;
+}
+.przycisk_zaloguj:hover
+{
+    background-color: #4c7397;
+}
+.przycisk_status
+{
+    margin-top: 5%;
+    color: #478ac9;
+    background-color: #f2f2f2;
+    padding: 2% 10% 2% 10%;
+    font-family: Verdana;
+    font-size: 120%;
+    border: none;
+}
+.przycisk_status:hover
+{
+    background-color: #b9b9b9;
+}
+.text_field
+{
+    padding: 2%;
+    font-size: 100%;
+}
+.status_content
+{
+    background-color: #478ac9;
+    color: #f2f2f2;
+    font-family: Verdana;
+    font-size: 140%;
+    padding: 2%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 50%;
+    font-weight: normal;
+}
+table, th, td 
+{
+    margin: 0 auto;
+    text-align: left;
+    border: 1px solid #f2f2f2;
+    border-collapse: collapse;
+    border-width: medium;
+    padding: 5px;
+}
+.edycja_serwisow
+{
+    background-color: #f2f2f2;
+    color: #478ac9;
+    font-family: Verdana;
+    padding: 1%;
+    width: 35%;
+    height: auto;
+    margin-left: 5%;
+    display: inline-block;
+    float: left;
+}
+.edycja_uzytkownikow
+{
+    background-color: #478ac9;
+    color: #f2f2f2;
+    font-family: Verdana;
+    padding: 1%;
+    width: 35%;
+    display: inline-block;
+    float: right;
+    margin-right: 5%;
+}
