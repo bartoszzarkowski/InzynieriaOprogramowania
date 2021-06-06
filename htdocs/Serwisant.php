@@ -18,11 +18,22 @@
 <body>
     <div class="container">
         <div class="banner"></div>
-            <?php
-                echo "<p>Witaj serwisancie ".$_SESSION['email']."!";
-                echo '<p><a href="logout.php">[Wyloguj]</a</p>';
-            ?>
+                 <div class="title">
+            <h1>SERWISANT</h1>
         </div>
+        <div class="info">
+            Użytkownik: 
+            <?php
+                echo $_SESSION['Imie']." ".$_SESSION['Nazwisko'];
+            ?>
+            <form action="logout.php">
+                <input type="submit" value="WYLOGUJ" class="przycisk_zaloguj" />
+            </form>
+        </div>
+        </div>
+        </center>
+        
+    </div>
     </div>
     <div class="footer">
         Aplikacja do zarządzania serwisem komputerowym opracowana przez Bartosza Żarkowskiego oraz Macieja Kiepurę.

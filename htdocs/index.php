@@ -26,6 +26,9 @@
 <body>
     <div class="container">
         <div class="banner"></div>
+        <div class="title">
+            <h1>SERWIS KOMPUTEROWY</h1>
+        </div>
         <div class="logowanie">
             <form action="login.php" method="post">
                 <h2>Logowanie</h2></br>

@@ -18,13 +18,21 @@
 <body>
     <div class="container">
         <div class="banner"></div>
-        
+        <div class="title">
+            <h1>DODAWANIE UŻYTKOWNIKA</h1>
+        </div>
+        <div class="info">
+            Użytkownik: 
             <?php
-                echo "<p>Witaj administratorze ".$_SESSION['email']."!";
-                echo '<p><a href="logout.php">[Wyloguj]</a></p>';
+                echo $_SESSION['Imie']." ".$_SESSION['Nazwisko'];
             ?>
-            <br><br>
-            Dodawanie użytkownika
+            <form action="Administrator.php">
+                <input type="submit" value="POWRÓT" class="przycisk_zaloguj" />
+            </form>
+            <form action="logout.php">
+                <input type="submit" value="WYLOGUJ" class="przycisk_zaloguj" />
+            </form>
+        </div>
         </div>
     </div>
     <div class="footer">

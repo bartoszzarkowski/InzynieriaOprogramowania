@@ -12,6 +12,11 @@
 <body>
     <div class="container">
         <div class="banner"></div>
+        
+        <div class="title">
+            <h1>STATUS ZLECENIA</h1>
+        </div>
+        
         <div class="status_content">
             <table>
                 <tr>

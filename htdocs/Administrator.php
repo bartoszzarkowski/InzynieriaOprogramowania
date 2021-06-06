@@ -18,10 +18,18 @@
 <body>
     <div class="container">
         <div class="banner"></div>
+        <div class="title">
+            <h1>ADMINISTRATOR</h1>
+        </div>
+        <div class="info">
+            Użytkownik: 
             <?php
-                echo "<p>Witaj administratorze ".$_SESSION['email']."!";
-                echo '<p><a href="logout.php">[Wyloguj]</a></p>';
+                echo $_SESSION['Imie']." ".$_SESSION['Nazwisko'];
             ?>
+            <form action="logout.php">
+                <input type="submit" value="WYLOGUJ" class="przycisk_zaloguj" />
+            </form>
+        </div>
         <div class="edycja_serwisow">
             <form action="Dodawanie_serwisu.php">
             <input type="submit" value="DODAJ SERWIS" class="przycisk_zaloguj" />
@@ -161,7 +169,6 @@
                     <td><center><img src="images/list.png" width="30px"></center></td>
                 </tr>
             </table>
-            
         </div>
     </div>
     <div class="footer">
